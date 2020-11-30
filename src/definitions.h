@@ -20,9 +20,9 @@
 #ifndef FS_DEFINITIONS_H_877452FEC245450C9F96B8FD268D8963
 #define FS_DEFINITIONS_H_877452FEC245450C9F96B8FD268D8963
 
-static constexpr auto STATUS_SERVER_NAME = "OTServBR - Global";
-static constexpr auto STATUS_SERVER_VERSION = "TFS 1.3";
-static constexpr auto STATUS_SERVER_DEVELOPERS = "OTServBR, Mark Samman and The Forgotten Server Developers";
+static constexpr auto STATUS_SERVER_NAME = "TIMERA REAL";
+static constexpr auto STATUS_SERVER_VERSION = "TIMERA 1.0";
+static constexpr auto STATUS_SERVER_DEVELOPERS = "Krisuu";
 
 static constexpr auto CLIENT_VERSION = 1251;
 static constexpr auto CLIENT_VERSION_STR = "12.51";
