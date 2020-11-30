@@ -48,7 +48,7 @@ function playerLogin.onLogin(player)
 	player:loadSpecialStorage()
 
 	if player:getGroup():getId() >= 4 then
-		player:setGhostMode(true)
+		player:setGhostMode(false)
 	end
 	-- Boosted creature
 	player:sendTextMessage(MESSAGE_LOOT, "Today's boosted creature: " .. BoostedCreature.name .. " \
