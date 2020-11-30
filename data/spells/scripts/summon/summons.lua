@@ -22,7 +22,7 @@ setCombatArea(combat, area)
 function onCastSpell(player, variant)
 	if not player then return false end
 
-    if #player:getSummons() >= 1 then
+    if #player:getSummons() >= 4 then
         player:sendCancelMessage("You can't have other summons.")
         player:getPosition():sendMagicEffect(CONST_ME_POFF)
     	return false
@@ -48,8 +48,8 @@ function onCastSpell(player, variant)
     local deltaSpeed = math.max(player:getBaseSpeed() - mySummon:getBaseSpeed(), 0)
     mySummon:changeSpeed(deltaSpeed)
 
-    player:setStorageValue(Storage.PetSummon, os.time() + 15*60) -- 15 minutes from now
+    player:setStorageValue(Storage.PetSummon, os.time() + 1000*1000*15*60) -- 15 minutes from now
     player:say("My Power your Power", TALKTYPE_MONSTER_SAY)
-    addEvent(removePet, 15*60*1000, mySummon:getId()) --I think this isn't necessary
+    addEvent(removePet, 1000*1000*15*60*1000, mySummon:getId()) --I think this isn't necessary
     return combat:execute(player, variant)
 end
