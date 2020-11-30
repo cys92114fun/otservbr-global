@@ -29,6 +29,10 @@ local reloadTypes = {
 	["mount"] = RELOAD_TYPE_MOUNTS,
 	["mounts"] = RELOAD_TYPE_MOUNTS,
 
+	["move"] = RELOAD_TYPE_MOVEMENTS,
+	["movement"] = RELOAD_TYPE_MOVEMENTS,
+	["movements"] = RELOAD_TYPE_MOVEMENTS,
+
 	["npc"] = RELOAD_TYPE_NPCS,
 	["npcs"] = RELOAD_TYPE_NPCS,
 
@@ -47,16 +51,16 @@ local reloadTypes = {
 	["talkaction"] = RELOAD_TYPE_TALKACTIONS,
 	["talkactions"] = RELOAD_TYPE_TALKACTIONS,
 
+	["weapon"] = RELOAD_TYPE_WEAPONS,
+	["weapons"] = RELOAD_TYPE_WEAPONS,
+
 	["scripts"] = RELOAD_TYPE_SCRIPTS,
 	["libs"] = RELOAD_TYPE_GLOBAL
 }
 
-local reload = TalkAction("/reload")
+local reload = TalkAction("/reloadp")
 
 function reload.onSay(player, words, param)
-	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_GOD then
-		return true
-	end
 
 	if param == "" then
 		player:sendCancelMessage("Command param required.")

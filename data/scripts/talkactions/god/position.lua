@@ -1,4 +1,4 @@
-local position = TalkAction("/pos", "!pos")
+local position = TalkAction("/pos")
 
 function position.onSay(player, words, param)
 
