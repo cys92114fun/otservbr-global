@@ -9,6 +9,18 @@ local weapons = {
 			{"Elite Knight"}
 		}
 	}, -- lion longsword
+			{
+		itemId = 29247,
+		type = WEAPON_WAND,
+		wandType = "ice",
+		level = 270,
+		mana = 20,
+		damage = {508, 1005},
+		vocation = {
+			{"Druid", true},
+			{"Elder Druid"}
+		}
+	}, -- ornate mayhem rod
 	{
 		itemId = 39089,
 		type = WEAPON_CLUB,
