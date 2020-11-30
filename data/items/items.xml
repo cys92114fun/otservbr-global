@@ -4798,7 +4798,7 @@
 	</item>
 	<item id="2596" article="a" name="stamped parcel">
 		<attribute key="weight" value="1800" />
-		<attribute key="containerSize" value="10" />
+		<attribute key="containerSize" value="30" />
 	</item>
 	<item id="2597" article="a" name="letter">
 		<attribute key="loottype" value="unassigned" />
