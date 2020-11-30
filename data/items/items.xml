@@ -3261,16 +3261,28 @@
 		<attribute key="description" value="It is the djinn leader's sleeping lamp." />
 	</item>
 	<item id="2357" article="a" name="ring of wishes">
-		<attribute key="description" value="(This item has 3 charges left)." />
-		<attribute key="weight" value="90" />
+		<attribute key="weight" value="80" />
+		<attribute key="absorbPercentAll" value="95" />
 		<attribute key="slotType" value="ring" />
-		<attribute key="loottype" value="ring" />
+		<attribute key="showattributes" value="1" />
+		<attribute key="speed" value="1000000" />
+		<attribute key="healthGain" value="30000" />
+		<attribute key="healthTicks" value="1" />
+		<attribute key="manaGain" value="12000" />
+		<attribute key="manaTicks" value="1" />
+		<attribute key="magiclevelpoints" value="50000" />
 	</item>
 	<item id="2358" name="boots of waterwalking">
-		<attribute key="description" value="(This item has 5 charges left)." />
+		<attribute key="speed" value="40" />
+		<attribute key="magiclevelpoints" value="2" />
+		<attribute key="manaGain" value="40" />
+		<attribute key="manaTicks" value="1" />
+		<attribute key="healthGain" value="40" />
+		<attribute key="healthTicks" value="1" />
 		<attribute key="weight" value="770" />
 		<attribute key="slotType" value="feet" />
 		<attribute key="loottype" value="boots" />
+		<attribute key="imbuingSlots" value="3" />
 	</item>
 	<item id="2359" article="a" name="djinn's lamp">
 		<attribute key="description" value="(This item has 2 charges left)." />
@@ -39569,35 +39581,27 @@
 	<item id="29052" article="a" name="wood tile" />
 	<item fromid="29053" toid="29055" article="an" name="unknown wall" />
 	<item id="29056" article="an" name="energized tile" />
-	<item id="29057" article="a" name="diamond arrow">
+		<item id="29057" article="a" name="diamond arrow">
 		<attribute key="weight" value="80" />
 		<attribute key="slotType" value="ammo" />
 		<attribute key="notstowable" value="1" />
 		<attribute key="attack" value="37" />
-		<attribute key="decayTo" value="0" />
-		<attribute key="duration" value="3600" />
 		<attribute key="weaponType" value="ammunition" />
 		<attribute key="loottype" value="ammo" />
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="shootType" value="diamondarrow" />
 		<attribute key="maxHitChance" value="100" />
-		<attribute key="stopduration" value="1" />
-		<attribute key="showduration" value="1" />
 	</item>
 	<item id="29058" article="a" name="spectral bolt">
 		<attribute key="weight" value="90" />
 		<attribute key="slotType" value="ammo" />
 		<attribute key="attack" value="78" />
-		<attribute key="decayTo" value="0" />
-		<attribute key="duration" value="3600" />
 		<attribute key="weaponType" value="ammunition" />
 		<attribute key="notstowable" value="1" />
 		<attribute key="loottype" value="ammo" />
 		<attribute key="ammoType" value="bolt" />
 		<attribute key="shootType" value="spectralbolt" />
 		<attribute key="maxHitChance" value="100" />
-		<attribute key="stopduration" value="0" />
-		<attribute key="showduration" value="1" />
 	</item>
 	<item id="29059" article="a" name="royal star">
 		<attribute key="weight" value="220" />
@@ -40631,9 +40635,11 @@
 	</item>
 	<item id="29247" article="a" name="valuable mayhem rod">
 		<attribute key="weight" value="5000" />
-		<attribute key="defense" value="5" />
-		<attribute key="attack" value="5" />
+		<attribute key="defense" value="50" />
+		<attribute key="imbuingSlots" value="3" />
 		<attribute key="weaponType" value="wand" />
+		<attribute key="range" value="10" />
+		<attribute key="shootType" value="ice" />
 		<attribute key="loottype" value="wand" />
 	</item>
 	<item id="29248" article="an" name="ornate mayhem rod">
@@ -40875,9 +40881,13 @@
 	</item>
 	<item id="29282" article="an" name="ornate carving blade">
 		<attribute key="weight" value="5000" />
-		<attribute key="defense" value="5" />
-		<attribute key="attack" value="5" />
+		<attribute key="defense" value="60" />
+		<attribute key="attack" value="105" />
+		<attribute key="elementIce" value="41" />
+		<attribute key="extradef" value="7" />
+		<attribute key="skillSword" value="10" />
 		<attribute key="weaponType" value="sword" />
+		<attribute key="imbuingSlots" value="3" />
 		<attribute key="loottype" value="sword" />
 	</item>
 	<item id="29283" article="a" name="plain carving slayer">
