@@ -38,7 +38,7 @@ local config = {
 	[23557]	= {NAME = 'Walker', ID = 43, BREAK = true, TYPE = TYPE_MONSTER, CHANCE = 30, FAIL_MSG = { {2, 'This walker is incompatible with your control unit.'}, {4, 'This walker is incompatible with your control unit.'} }, SUCCESS_MSG = 'You tamed the walker.', ACHIEV = "Gear Up"},
 	[20138]	= {NAME = 'Water Buffalo', ID = 35, BREAK = true,	TYPE = TYPE_MONSTER, CHANCE = 30, FAIL_MSG = { {1, 'The water buffalo got scared and ran away.'}, {3, 'The water buffalo is trying to nibble.'} }, SUCCESS_MSG = 'You tamed a water buffalo.', ACHIEV = "Swamp Beast"},
 	[13939]	= {NAME = 'Wild Horse', ID = 17, BREAK = true, TYPE = TYPE_MONSTER, CHANCE = 15, FAIL_MSG = { {1, 'The horse runs away.'}, {2, 'The horse ate the oats.'} }, SUCCESS_MSG = 'You have tamed the horse.', ACHIEV = "Lucky Horseshoe"},
-	[13939]	= {NAME = 'White Lion', ID = 174, BREAK = true, TYPE = TYPE_MONSTER, CHANCE = 15, FAIL_MSG = { {1, 'The White Lion runs away.'}, {2, 'The White Lion ate the oats.'} }, SUCCESS_MSG = 'You have tamed the horse.', ACHIEV = "Lucky Horseshoe"}
+	[39093]	= {NAME = 'White Lion', ID = 174, BREAK = true, TYPE = TYPE_MONSTER, CHANCE = 15, FAIL_MSG = { {1, 'The White Lion runs away.'}, {2, 'The White Lion ate the oats.'} }, SUCCESS_MSG = 'You have tamed the horse.', ACHIEV = "Lucky Horseshoe"}
 
 	
 }
