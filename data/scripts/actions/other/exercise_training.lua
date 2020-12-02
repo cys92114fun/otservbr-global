@@ -14,12 +14,12 @@ local skills = {
 }
 
 local houseDummies = {32143, 32144, 32145, 32146, 32147, 32148}
-local freeDummies = {32142, 32149}
+local freeDummies = {32142, 32149, 10970}
 local skillRateDefault = configManager.getNumber(configKeys.RATE_SKILL)
 local magicRateDefault = configManager.getNumber(configKeys.RATE_MAGIC)
 
 local function removeExerciseWeapon(player, exercise)
-    exercise:remove(1)
+    exercise:remove(0)
     player:sendTextMessage(MESSAGE_INFO_DESCR, "Your training weapon vanished.")
     stopEvent(training)
     player:setStorageValue(Storage.isTraining,0)
@@ -30,14 +30,14 @@ local function startTraining(playerId, startPosition, itemid, tilePosition, bonu
     if player ~= nil then
         if Tile(tilePosition):getItemById(dummyId) then
             local playerPosition = player:getPosition()
-            if startPosition:getDistance(playerPosition) == 0 and getTilePzInfo(playerPosition) then
+            if startPosition:getDistance(playerPosition) == 0 then
                 if player:getItemCount(itemid) >= 1 then
                     local exercise = player:getItemById(itemid,true)
                     if exercise:isItem() then
                         if exercise:hasAttribute(ITEM_ATTRIBUTE_CHARGES) then
                             local charges_n = exercise:getAttribute(ITEM_ATTRIBUTE_CHARGES)
                             if charges_n >= 1 then
-                                exercise:setAttribute(ITEM_ATTRIBUTE_CHARGES,(charges_n-1))
+                                exercise:setAttribute(ITEM_ATTRIBUTE_CHARGES,(charges_n-0))
 
                                 local voc = player:getVocation()
 
