@@ -120,18 +120,18 @@
 	<!-- Life leech Imbuement -->
 	<imbuement name="Vampirism" base="1" category="1" iconid="46">
 		<attribute key="description" value="Converts 5% of damage to HP with a chance of 100%." />
-		<attribute key="effect" type="skill" value="lifeleech" bonus="30" chance="100" />
+		<attribute key="effect" type="skill" value="lifeleech" bonus="5" chance="100" />
 		<attribute key="item" value="10602" count="0" />
 	</imbuement>
 	<imbuement name="Vampirism" base="2" category="1" iconid="46">
 		<attribute key="description" value="Converts 10% of damage to HP with a chance of 100%." />
-		<attribute key="effect" type="skill" value="lifeleech" bonus="50" chance="100" />
+		<attribute key="effect" type="skill" value="lifeleech" bonus="10" chance="100" />
 		<attribute key="item" value="10602" count="0" />
 		<attribute key="item" value="10550" count="0" />
 	</imbuement>
 	<imbuement name="Vampirism" base="3" category="1" iconid="46">
 		<attribute key="description" value="Converts 25% of damage to HP with a chance of 100%." />
-		<attribute key="effect" type="skill" value="lifeleech" bonus="80" chance="100" />
+		<attribute key="effect" type="skill" value="lifeleech" bonus="25" chance="100" />
 		<attribute key="item" value="10602" count="0" />
 		<attribute key="item" value="10550" count="0" />
 		<attribute key="item" value="10580" count="0" />
@@ -139,18 +139,18 @@
 	<!-- Mana Leech Imbuement -->
 	<imbuement name="Void" base="1" category="2" iconid="49">
 		<attribute key="description" value="Converts 3% of damage to MP with a chance of 100%." />
-		<attribute key="effect" type="skill" value="manaleech" bonus="30" chance="100" />
+		<attribute key="effect" type="skill" value="manaleech" bonus="3" chance="100" />
 		<attribute key="item" value="12448" count="0" />
 	</imbuement>
 	<imbuement name="Void" base="2" category="2" iconid="49">
 		<attribute key="description" value="Converts 5% of damage to MP with a chance of 100%." />
-		<attribute key="effect" type="skill" value="manaleech" bonus="50" chance="100" />
+		<attribute key="effect" type="skill" value="manaleech" bonus="5" chance="100" />
 		<attribute key="item" value="12448" count="0" />
 		<attribute key="item" value="22534" count="0" />
 	</imbuement>
 	<imbuement name="Void" base="3" category="2" iconid="49">
 		<attribute key="description" value="Converts 8% of damage to MP with a chance of 100%." />
-		<attribute key="effect" type="skill" value="manaleech" bonus="80" chance="100" />
+		<attribute key="effect" type="skill" value="manaleech" bonus="8" chance="100" />
 		<attribute key="item" value="12448" count="0" />
 		<attribute key="item" value="22534" count="0" />
 		<attribute key="item" value="25386" count="0" />
@@ -286,19 +286,19 @@
 	</imbuement>
 	<!-- Speed Imbuement -->
 	<imbuement name="Swiftness" base="1" category="10" iconid="73">
-		<attribute key="description" value="Raises walking speed by 1000." />
-		<attribute key="effect" type="speed" value="1000" />
+		<attribute key="description" value="Raises walking speed by 10." />
+		<attribute key="effect" type="speed" value="10" />
 		<attribute key="item" value="19738" count="0" />
 	</imbuement>
 	<imbuement name="Swiftness" base="2" category="10" iconid="73">
-		<attribute key="description" value="Raises walking speed by 1500." />
-		<attribute key="effect" type="speed" value="1500" />
+		<attribute key="description" value="Raises walking speed by 15." />
+		<attribute key="effect" type="speed" value="15" />
 		<attribute key="item" value="19738" count="0" />
 		<attribute key="item" value="11219" count="0" />
 	</imbuement>
 	<imbuement name="Swiftness" base="3" category="10" iconid="73">
-		<attribute key="description" value="Raises walking speed by 3000." />
-		<attribute key="effect" type="speed" value="3000" />
+		<attribute key="description" value="Raises walking speed by 30." />
+		<attribute key="effect" type="speed" value="30" />
 		<attribute key="item" value="19738" count="0" />
 		<attribute key="item" value="11219" count="0" />
 		<attribute key="item" value="15484" count="0" />
@@ -306,72 +306,72 @@
 	<!-- Skills Imbuements -->
 	<imbuement name="Chop" base="1" category="11" iconid="52">
 		<attribute key="description" value="Raises axe fighting skill by 1." />
-		<attribute key="effect" type="skill" value="axe" bonus="10" />
+		<attribute key="effect" type="skill" value="axe" bonus="1" />
 		<attribute key="item" value="11113" count="0" />
 	</imbuement>
 	<imbuement name="Chop" base="2" category="11" iconid="52">
 		<attribute key="description" value="Raises axe fighting skill by 2." />
-		<attribute key="effect" type="skill" value="axe" bonus="20" />
+		<attribute key="effect" type="skill" value="axe" bonus="2" />
 		<attribute key="item" value="11113" count="0" />
 		<attribute key="item" value="12403" count="0" />
 	</imbuement>
 	<imbuement name="Chop" base="3" category="11" iconid="52">
 		<attribute key="description" value="Raises axe fighting skill by 4." />
-		<attribute key="effect" type="skill" value="axe" bonus="40" />
+		<attribute key="effect" type="skill" value="axe" bonus="4" />
 		<attribute key="item" value="11113" count="0" />
 		<attribute key="item" value="12403" count="0" />
 		<attribute key="item" value="23571" count="0" />
 	</imbuement>
 	<imbuement name="Slash" base="1" category="12" iconid="70">
 		<attribute key="description" value="Raises sword fighting skill by 1." />
-		<attribute key="effect" type="skill" value="sword" bonus="10" />
+		<attribute key="effect" type="skill" value="sword" bonus="1" />
 		<attribute key="item" value="10608" count="0" />
 	</imbuement>
 	<imbuement name="Slash" base="2" category="12" iconid="70">
 		<attribute key="description" value="Raises sword fighting skill by 2." />
-		<attribute key="effect" type="skill" value="sword" bonus="20" />
+		<attribute key="effect" type="skill" value="sword" bonus="2" />
 		<attribute key="item" value="10608" count="0" />
 		<attribute key="item" value="23573" count="0" />
 	</imbuement>
 	<imbuement name="Slash" base="3" category="12" iconid="70">
 		<attribute key="description" value="Raises sword fighting skill by 4." />
-		<attribute key="effect" type="skill" value="sword" bonus="40" />
+		<attribute key="effect" type="skill" value="sword" bonus="4" />
 		<attribute key="item" value="10608" count="0" />
 		<attribute key="item" value="23573" count="0" />
 		<attribute key="item" value="10571" count="0" />
 	</imbuement>
 	<imbuement name="Bash" base="1" category="13" iconid="52">
 		<attribute key="description" value="Raises club fighting skill by 1." />
-		<attribute key="effect" type="skill" value="club" bonus="10" />
+		<attribute key="effect" type="skill" value="club" bonus="1" />
 		<attribute key="item" value="10574" count="0" />
 	</imbuement>
 	<imbuement name="Bash" base="2" category="13" iconid="52">
 		<attribute key="description" value="Raises club fighting skill by 2." />
-		<attribute key="effect" type="skill" value="club" bonus="20" />
+		<attribute key="effect" type="skill" value="club" bonus="2" />
 		<attribute key="item" value="10574" count="0" />
 		<attribute key="item" value="24845" count="0" />
 	</imbuement>
 	<imbuement name="Bash" base="3" category="13" iconid="52">
 		<attribute key="description" value="Raises club fighting skill by 4." />
-		<attribute key="effect" type="skill" value="club" bonus="40" />
+		<attribute key="effect" type="skill" value="club" bonus="4" />
 		<attribute key="item" value="10574" count="0" />
 		<attribute key="item" value="24845" count="0" />
 		<attribute key="item" value="11322" count="0" />
 	</imbuement>
 	<imbuement name="Precision" base="1" category="15" iconid="58">
 		<attribute key="description" value="Raises distance fighting skill by 1." />
-		<attribute key="effect" type="skill" value="distance" bonus="10" />
+		<attribute key="effect" type="skill" value="distance" bonus="1" />
 		<attribute key="item" value="12420" count="0" />
 	</imbuement>
 	<imbuement name="Precision" base="2" category="15" iconid="58">
 		<attribute key="description" value="Raises distance fighting skill by 2." />
-		<attribute key="effect" type="skill" value="distance" bonus="20" />
+		<attribute key="effect" type="skill" value="distance" bonus="2" />
 		<attribute key="item" value="12420" count="0" />
 		<attribute key="item" value="21311" count="0" />
 	</imbuement>
 	<imbuement name="Precision" base="3" category="15" iconid="58">
 		<attribute key="description" value="Raises distance fighting skill by 4." />
-		<attribute key="effect" type="skill" value="distance" bonus="40" />
+		<attribute key="effect" type="skill" value="distance" bonus="4" />
 		<attribute key="item" value="12420" count="0" />
 		<attribute key="item" value="21311" count="0" />
 		<attribute key="item" value="11215" count="0" />
@@ -395,19 +395,19 @@
 		<attribute key="item" value="22533" count="0" />
 	</imbuement>
 	<imbuement name="Epiphany" base="1" category="16" iconid="64">
-		<attribute key="description" value="Raises magic level by 10." />
-		<attribute key="effect" type="skill" value="magicpoints" bonus="10" />
+		<attribute key="description" value="Raises magic level by 1." />
+		<attribute key="effect" type="skill" value="magicpoints" bonus="1" />
 		<attribute key="item" value="10552" count="0" />
 	</imbuement>
 	<imbuement name="Epiphany" base="2" category="16" iconid="64">
-		<attribute key="description" value="Raises magic level by 20." />
-		<attribute key="effect" type="skill" value="magicpoints" bonus="20" />
+		<attribute key="description" value="Raises magic level by 2." />
+		<attribute key="effect" type="skill" value="magicpoints" bonus="2" />
 		<attribute key="item" value="10552" count="0" />
 		<attribute key="item" value="12408" count="0" />
 	</imbuement>
 	<imbuement name="Epiphany" base="3" category="16" iconid="64">
-		<attribute key="description" value="Raises magic level by 40." />
-		<attribute key="effect" type="skill" value="magicpoints" bonus="40" />
+		<attribute key="description" value="Raises magic level by 4." />
+		<attribute key="effect" type="skill" value="magicpoints" bonus="4" />
 		<attribute key="item" value="10552" count="0" />
 		<attribute key="item" value="12408" count="0" />
 		<attribute key="item" value="11226" count="0" />
