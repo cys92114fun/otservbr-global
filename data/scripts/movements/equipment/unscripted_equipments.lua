@@ -17,6 +17,16 @@ if not equipmentsTable then
 			slot = "hand"
 		}, -- lion hammer
 		{
+			itemid = 29247,
+			type = "equip",
+			slot = "hand"
+		}, -- ornate carving rod
+		{
+			itemid = 29247,
+			type = "deequip",
+			slot = "hand"
+		}, -- ornate carving rod
+		{
 			itemid = 39088,
 			type = "equip",
 			slot = "hand",
