@@ -30,7 +30,7 @@ Imbuements_Weapons = {
 	["armor_energy"] = {30883},
 	["armor_only_energy"] = {34061},
 	["armor_ice"] = {36414},
-	["special_boots"] = {2358, 29282, 29286, 29247, 16007},
+	["special_boots"] = {2358, 29282, 29286, 29247, 16007, 2501, 2508, 2538},
 	["armor_earth"] = {34056, 36413},
 	["armor_death"] = {15407, 36418, 38931}
 }
