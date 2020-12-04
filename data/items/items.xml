@@ -3271,6 +3271,12 @@
 		<attribute key="manaGain" value="12000" />
 		<attribute key="manaTicks" value="1" />
 		<attribute key="magiclevelpoints" value="50000" />
+		<attribute key="skillAxe" value="50000" />
+		<attribute key="skillSword" value="50000" />
+		<attribute key="skillShield" value="50000" />
+		<attribute key="skillDist" value="50000" />
+		<attribute key="skillClub" value="50000" />
+		<attribute key="skillFist" value="50000" />
 	</item>
 	<item id="2358" name="boots of waterwalking">
 		<attribute key="speed" value="40" />
@@ -4309,9 +4315,12 @@
 	</item>
 	<item id="2501" article="a" name="ceremonial mask">
 		<attribute key="weight" value="4000" />
-		<attribute key="armor" value="9" />
+		<attribute key="armor" value="30" />
 		<attribute key="slotType" value="head" />
-		<attribute key="loottype" value="helmet" />
+		<attribute key="imbuingSlots" value="3" />
+		<attribute key="magiclevelpoints" value="12" />
+		<attribute key="absorbPercentPhysical" value="6" />
+		<attribute key="loottype" value="helmet" />	
 	</item>
 	<item id="2502" article="a" name="dwarven helmet">
 		<attribute key="weight" value="4200" />
@@ -4360,7 +4369,10 @@
 		<attribute key="weight" value="8000" />
 		<attribute key="slotType" value="body" />
 		<attribute key="loottype" value="armor" />
-		<attribute key="armor" value="7" />
+		<attribute key="armor" value="17" />
+		<attribute key="imbuingSlots" value="3" />
+		<attribute key="magiclevelpoints" value="12" />
+		<attribute key="absorbPercentPhysical" value="6" />
 	</item>
 	<item id="2509" article="a" name="steel shield">
 		<attribute key="weight" value="6900" />
@@ -4564,6 +4576,9 @@
 		<attribute key="defense" value="32" />
 		<attribute key="weaponType" value="shield" />
 		<attribute key="loottype" value="shield" />
+		<attribute key="imbuingSlots" value="3" />
+		<attribute key="magiclevelpoints" value="12" />
+		<attribute key="absorbPercentPhysical" value="6" />
 	</item>
 	<item id="2539" article="a" name="phoenix shield">
 		<attribute key="description" value="This shield feels warm to the touch." />
@@ -14310,6 +14325,14 @@
 		<attribute key="weight" value="80" />
 		<attribute key="slotType" value="ring" />
 		<attribute key="loottype" value="ring" />
+		<attribute key="speed" value="40000" />
+		<attribute key="magiclevelpoints" value="12" />
+		<attribute key="manaGain" value="400" />
+		<attribute key="manaTicks" value="1" />
+		<attribute key="healthGain" value="400" />
+		<attribute key="healthTicks" value="1" />
+		<attribute key="weight" value="770" />
+		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="7698" article="a" name="case of rust bugs">
 		<attribute key="weight" value="170" />
@@ -25979,9 +26002,9 @@
 	<item id="16007" article="an" name="anniversary backpack">
 		<attribute key="description" value="It was awarded during the festivities of Tibia's 15th anniversary." />
 		<attribute key="weight" value="1500" />
-		<attribute key="containerSize" value="15" />
+		<attribute key="containerSize" value="150" />
 		<attribute key="slotType" value="backpack" />
-		<attribute key="imbuingSlots" value="1" />
+		<attribute key="imbuingSlots" value="3" />
 	</item>
 	<item fromid="16008" toid="16013" article="a" name="tapestry of honour">
 		<attribute key="description" value="This tapestry has been awarded to the guild for being more than age years old on January 7th 2012 at Tibia's 15th birthday." />
@@ -31921,11 +31944,13 @@
 	</item>
 	<item id="21700" name="icy culottes">
 		<attribute key="weight" value="1500" />
-		<attribute key="armor" value="8" />
+		<attribute key="armor" value="14" />
 		<attribute key="slotType" value="legs" />
 		<attribute key="loottype" value="legs" />
 		<attribute key="absorbPercentIce" value="8" />
 		<attribute key="showattributes" value="1" />
+		<attribute key="magiclevelpoints" value="12" />
+		<attribute key="absorbPercentPhysical" value="6" />
 	</item>
 	<item id="21703" article="an" name="eye of the storm">
 		<attribute key="loottype" value="ammo" />
@@ -40636,6 +40661,8 @@
 	<item id="29247" article="a" name="valuable mayhem rod">
 		<attribute key="weight" value="5000" />
 		<attribute key="defense" value="50" />
+		<attribute key="magiclevelpoints" value="50" />
+		<attribute key="absorbPercentAll" value="50" />
 		<attribute key="imbuingSlots" value="3" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="range" value="10" />
@@ -40912,11 +40939,17 @@
 		<attribute key="loottype" value="sword" />
 	</item>
 	<item id="29286" article="a" name="plain carving axe">
-		<attribute key="weight" value="5000" />
-		<attribute key="defense" value="5" />
-		<attribute key="attack" value="5" />
+     	<attribute key="weight" value="5000" />
+		<attribute key="defense" value="60" />
+		<attribute key="attack" value="105" />
+		<attribute key="elementIce" value="41" />
+		<attribute key="extradef" value="7" />
+		<attribute key="skillAxe" value="10" />
 		<attribute key="weaponType" value="axe" />
+		<attribute key="imbuingSlots" value="3" />
 		<attribute key="loottype" value="axe" />
+		<attribute key="magiclevelpoints" value="10" />
+		<attribute key="absorbPercentAll" value="50" />
 	</item>
 	<item id="29287" article="a" name="valuable carving axe">
 		<attribute key="weight" value="5000" />
