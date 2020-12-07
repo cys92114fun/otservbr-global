@@ -119,6 +119,16 @@ local weapons = {
 			{"Royal Paladin"}
 		}
 	}, -- soulbleeder bow
+		{
+		itemId = 29298,
+		type = WEAPON_DISTANCE,
+		level = 400,
+		unproperly = true,
+		vocation = {
+			{"Paladin", true},
+			{"Royal Paladin"}
+		}
+	}, -- soulbleeder bow
 	{
 		itemId = 38922,
 		type = WEAPON_CLUB,
