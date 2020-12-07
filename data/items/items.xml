@@ -21674,8 +21674,13 @@
 	<item fromid="11379" toid="11384" name="dark spikes" />
 	<item fromid="11385" toid="11392" article="a" name="part of a giant stone dragon" />
 	<item id="11393" article="a" name="lucky clover amulet">
-		<attribute key="description" value="It is rumoured to bring you good luck! Luck sponsored by TibiaLottery." />
-		<attribute key="weight" value="150" />
+		<attribute key="magiclevelpoints" value="12" />
+		<attribute key="manaGain" value="400" />
+		<attribute key="manaTicks" value="1" />
+		<attribute key="healthGain" value="400" />
+		<attribute key="healthTicks" value="1" />
+		<attribute key="weight" value="770" />
+		<attribute key="showattributes" value="1" />
 		<attribute key="slotType" value="necklace" />
 		<attribute key="loottype" value="amulet" />
 	</item>
@@ -40940,14 +40945,15 @@
 	</item>
 	<item id="29286" article="a" name="plain carving axe">
      	<attribute key="weight" value="5000" />
-		<attribute key="defense" value="60" />
-		<attribute key="attack" value="105" />
-		<attribute key="elementIce" value="41" />
-		<attribute key="extradef" value="7" />
-		<attribute key="skillAxe" value="10" />
+		<attribute key="defense" value="35" />
+		<attribute key="attack" value="50" />
+		<attribute key="elementIce" value="97" />
+		<attribute key="skillcriticalchance" value="10" />
+		<attribute key="skillcriticaldamage" value="10" />
 		<attribute key="weaponType" value="axe" />
-		<attribute key="imbuingSlots" value="3" />
 		<attribute key="loottype" value="axe" />
+		<attribute key="skillAxe" value="15" />
+		<attribute key="imbuingSlots" value="3" />
 		<attribute key="magiclevelpoints" value="10" />
 		<attribute key="absorbPercentAll" value="50" />
 	</item>
