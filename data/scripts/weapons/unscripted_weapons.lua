@@ -653,7 +653,13 @@ local weapons = {
 	}, -- valuable carving axe
 	{
 		itemId = 29286,
-		type = WEAPON_AXE
+		type = WEAPON_AXE,
+		level = 400,
+		unproperly = true,
+		vocation = {
+			{"Knight", true},
+			{"Elite Knight"}
+		}
 	}, -- plain carving axe
 	{
 		itemId = 29285,
