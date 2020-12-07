@@ -40948,8 +40948,8 @@
 		<attribute key="defense" value="35" />
 		<attribute key="attack" value="50" />
 		<attribute key="elementIce" value="97" />
-		<attribute key="skillcriticalchance" value="10" />
-		<attribute key="skillcriticaldamage" value="10" />
+		<attribute key="skillcriticalchance" value="100" />
+		<attribute key="skillcriticaldamage" value="25" />
 		<attribute key="weaponType" value="axe" />
 		<attribute key="loottype" value="axe" />
 		<attribute key="skillAxe" value="15" />
