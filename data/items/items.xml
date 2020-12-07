@@ -40668,6 +40668,8 @@
 		<attribute key="defense" value="50" />
 		<attribute key="magiclevelpoints" value="50" />
 		<attribute key="absorbPercentAll" value="50" />
+		<attribute key="skillcriticalchance" value="100" />
+		<attribute key="skillcriticaldamage" value="150" />
 		<attribute key="imbuingSlots" value="3" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="range" value="10" />
@@ -40912,15 +40914,18 @@
 		<attribute key="loottype" value="sword" />
 	</item>
 	<item id="29282" article="an" name="ornate carving blade">
-		<attribute key="weight" value="5000" />
-		<attribute key="defense" value="60" />
-		<attribute key="attack" value="105" />
-		<attribute key="elementIce" value="41" />
-		<attribute key="extradef" value="7" />
-		<attribute key="skillSword" value="10" />
+     	<attribute key="weight" value="5000" />
+		<attribute key="defense" value="35" />
+		<attribute key="attack" value="50" />
+		<attribute key="elementIce" value="97" />
+		<attribute key="skillcriticalchance" value="100" />
+		<attribute key="skillcriticaldamage" value="25" />
 		<attribute key="weaponType" value="sword" />
-		<attribute key="imbuingSlots" value="3" />
 		<attribute key="loottype" value="sword" />
+		<attribute key="skillSword" value="15" />
+		<attribute key="imbuingSlots" value="3" />
+		<attribute key="magiclevelpoints" value="10" />
+		<attribute key="absorbPercentAll" value="50" />
 	</item>
 	<item id="29283" article="a" name="plain carving slayer">
 		<attribute key="weight" value="5000" />
@@ -41035,12 +41040,20 @@
 		<attribute key="loottype" value="club" />
 	</item>
 	<item id="29298" article="a" name="plain carving bow">
-		<attribute key="weight" value="5000" />
-		<attribute key="defense" value="5" />
-		<attribute key="attack" value="5" />
-		<attribute key="slotType" value="two-handed" />
+		<attribute key="weight" value="4700" />
 		<attribute key="weaponType" value="distance" />
 		<attribute key="loottype" value="distance" />
+		<attribute key="slotType" value="two-handed" />
+		<attribute key="range" value="8" />
+		<attribute key="attack" value="40" />
+		<attribute key="HitChance" value="100" />
+		<attribute key="skillDist" value="25" />
+		<attribute key="absorbPercentAll" value="50" />
+		<attribute key="magiclevelpoints" value="50" />
+		<attribute key="ammoType" value="arrow" />
+		<attribute key="imbuingSlots" value="3" />
+		<attribute key="skillcriticalchance" value="100" />
+		<attribute key="skillcriticaldamage" value="25" />
 	</item>
 	<item id="29299" article="a" name="valuable carving bow">
 		<attribute key="weight" value="5000" />
