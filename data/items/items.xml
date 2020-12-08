@@ -41043,7 +41043,6 @@
 		<attribute key="weight" value="4700" />
 		<attribute key="weaponType" value="distance" />
 		<attribute key="loottype" value="distance" />
-		<attribute key="slotType" value="two-handed" />
 		<attribute key="range" value="8" />
 		<attribute key="attack" value="40" />
 		<attribute key="HitChance" value="100" />
@@ -51005,6 +51004,8 @@
 		<attribute key="absorbPercentHoly" value="7" />
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="imbuingSlots" value="3" />
+		<attribute key="skillcriticalchance" value="10" />
+		<attribute key="skillcriticaldamage" value="10" />
 	</item>
 	<item id="38924" article="a" name="soulpiercer">
 		<attribute key="weight" value="4000" />
